@@ -1,0 +1,38 @@
+{
+  "name": "common-dao",
+  "version": "0.1.0",
+  "description": "common dao utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jerry",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unidevel/common-dao.git"
+  },
+  "keywords": [
+    "common-dao",
+    "common_dao",
+    "commondao"
+  ],
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "files": [
+    "lib",
+    "*.js"
+  ],
+  "bin": {
+    "wxserver": "bin/wxserver",
+    "wxtoken": "bin/wxtoken",
+    "wximport": "bin/wximport"
+  },
+  "bugs": {
+    "url": "https://github.com/unidevel/common-dao/issues"
+  },
+  "homepage": "https://github.com/unidevel/common-dao"
+}
