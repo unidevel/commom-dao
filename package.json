@@ -18,19 +18,15 @@
     "commondao"
   ],
   "dependencies": {
+    "debug": "^2.2.0"
   },
   "engines": {
     "node": ">= 4.2.0"
   },
   "files": [
-    "lib",
+    "lib/*.js",
     "*.js"
   ],
-  "bin": {
-    "wxserver": "bin/wxserver",
-    "wxtoken": "bin/wxtoken",
-    "wximport": "bin/wximport"
-  },
   "bugs": {
     "url": "https://github.com/unidevel/common-dao/issues"
   },
